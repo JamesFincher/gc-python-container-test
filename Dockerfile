@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir fastapi uvicorn python-multipart python-dotenv SQ
 EXPOSE 80
 
 # Run the command to start uvicorn
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
